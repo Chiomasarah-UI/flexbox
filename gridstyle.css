@@ -1,0 +1,114 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+nav{
+    background-color: #1e3932;
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    color: #f1f8f6;
+    place-items: center;
+    padding-right: 100px;
+}
+
+nav a{
+    all: unset;
+    color: #f1f8f6;
+    font-weight: 500;
+    font-size: large;
+    font-family: 'poppins', sans-serif;
+    padding: 8px 8px;
+    cursor: pointer;
+    transition: all 0.1s ease;
+    margin-right: 20px;
+}
+nav a:hover{
+    color: #1e3932;
+    background-color: #f1f8f6;
+    border-radius: 10px;
+}
+
+header a:link.active {
+    background-color: #0c7c5d;
+    border-radius: 10px;
+    border: 2px solid #f1f8f6;
+}
+
+body{
+    background-color: black;
+    width: 100vw;
+    height: 800px;
+}
+
+.wrap{
+    background-color: rgb(25, 3, 84);
+    width: 70%;
+    height: 80%;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    right: 50%;
+    top: 60%;  
+}
+
+.firstwrap{
+    height: 50%;
+    width: 90%;
+    display: flex;
+}
+
+.one{
+    width: 70%;
+    height: 90%;
+    background-color: brown;
+    margin: 1rem;
+}
+
+.two{
+    width: 30%;
+    height: 90%;
+    background-color: rgb(167, 172, 14); 
+    margin: 1rem 1rem 1rem 0; 
+}
+
+.secondwrap{
+    height: 50%;
+    width: 90%;
+    display: flex;
+}
+.three{
+    width: 50%;
+    height: 90%;
+    background-color: rgb(5, 120, 66);
+    margin: 0rem 1rem 1rem 1rem;
+}
+
+.middiv{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 1rem 1rem 0;
+}
+
+.four{
+    width: 100%;
+    height: 36%;
+    background-color: rgb(0, 183, 255);
+    margin: 0 1rem 1rem 0; 
+}
+
+.five{
+    width: 100%;
+    height: 48%;
+    background-color: rgb(0, 183, 255);
+    margin: 0 1rem 0 0;  
+}
